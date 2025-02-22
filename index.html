@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanoli,s Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="/Picsart_25-01-17_10-52-00-467.png" alt="" width="180px" height="120px">
+                </div>
+                <nav>
+                    <ul id="menulist">
+                        <li><a href="aa">Home</a></li>
+                        <li><a href="/all-product.html" target="_blank">Product</a></li>
+                        <li><a href="aa">Contact</a></li>
+                        <li><a href="/account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <!-- <a href="/cart.html"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                    </svg></a> -->
+                <img src="/menu-icon-13.png" class="menu-icon" onclick="toggleMenu()">
+
+
+
+            </div>
+
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give Your Face <br> A New Look !</h1>
+                    <p>Welcome to a world where beauty meets confidence.</p><a href="" class="btn">Explore Now
+                        &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="/Picsart_25-01-17_10-40-11-146.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="products" class="containermy-5">
+        <h2 class="title">Products</h2>
+        <div id="products-grid" class="row"></div>
+    </section>
+
+    <!-- -------featured category------    -->
+
+    <!-- <div class="category">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="/makeup1.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="/makeup2.png" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="/makeup3.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- --------featured products------ -->
+
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="/product4.png" alt="">
+                <h4>Maskara</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$10.00</p>
+            </div>
+
+
+            <div class="col-4">
+                <img src="/product3.jpg" alt="">
+                <h4>Make up Kit</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$10.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="/product2.jpg" alt="">
+                <h4>lip gloss</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$10.00</p>
+            </div>
+            <div class="col-4">
+                <img src="/product1.webp" alt="">
+                <h4>lip Stick</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$10.00</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------latest products----- -->
+    <!-- <h2 class="title">latest Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="/recentproduct4.jpg" alt="">
+            <h4>Kit Bag</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$10.00</p>
+        </div>
+        <div class="col-4">
+            <img src="/recentproduct3.avif" alt="">
+            <h4>Brush</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$10.00</p>
+        </div>
+        <div class="col-4">
+            <img src="/recentproduct2.webp" alt="">
+            <h4>Mini kit</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$10.00</p>
+        </div>
+        <div class="col-4">
+            <img src="/recentproduct.jpeg" alt="">
+            <h4>Bangels</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$10.00</p>
+        </div>
+    </div> -->
+
+
+    <!-- -------offer------ -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2"><img src="/Louboutin-Heels-Transparent-PNG.png" alt="" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Avalibale on Tanoli,s Store</p>
+                    <h1>Louboutin Heels</h1>
+                    <small>Step into unparalleled luxury with christian Louboutin heels - the ultimate
+                        expression of
+                        elegance and sophistication.</small><br>
+                    <a href="https://wa.me/923131177170" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------testimonial-----  -->
+    <!-- <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem corrupti a officia quia?
+                        Esse repellendus corrupti error beatae quaerat ipsum.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="/dani.jpg" alt="">
+                    <h3>Daniyal Tanoli</h3>
+                    <p>Manager</p>
+
+                </div> -->
+    <!-- <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem corrupti a officia quia?
+                        Esse repellendus corrupti error beatae quaerat ipsum.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="/shazi.jpg" alt="">
+                    <h3>Shahzaib Tanoli</h3>
+                    <p>Developer</p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- --------brands------ -->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="/Chanel-Symbol.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="/Dove-Logo.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="/Emblema-Loreal.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="/Garnier-Emblem.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------footer------ -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>download App for Android and ios</p>
+                </div>
+                <div class="footer-col-2">
+                    <img src="/Dove-Logo.png" alt="" width="160px" height="100px">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus in veniam ullam
+                        aspernatur.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>blog post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affilliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 2020 - Easy Tutorials</p>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="landing.js"></script>
+</body>
+
+</html>
